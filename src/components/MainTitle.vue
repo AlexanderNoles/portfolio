@@ -1,9 +1,6 @@
 <script setup>
 defineProps({
-  mainTitle: {
-    type: String,
-    required: true
-  },
+  mainTitle: String,
   subTitle: {
     type: String,
     required: true
