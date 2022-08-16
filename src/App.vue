@@ -4,9 +4,9 @@ import BigButton from './components/BigButton.vue'
 </script>
 
 <template>
-<BigButton class = "largeButton1" buttonText = "Pixel-Art" imagePath = "https://animals.net/wp-content/uploads/2018/08/Tanuki-3-650x425.jpg" />
-<BigButton class = "largeButton2" buttonText = "Projects" imagePath = "https://folklorethursday.com/wp-content/uploads/2018/09/1.-Racoon-Dog-1024x768.jpg" />
-<BigButton class = "largeButton3" buttonText = "About" imagePath = "https://pbs.twimg.com/media/FPZpkGOVgAAdII-.jpg" />
+<BigButton class = "largeButton1" overlayText = "Pixel-Art" imagePath = "https://i.ibb.co/jznt4YG/Sprite-0002.png" />
+<BigButton class = "largeButton2" overlayText = "Projects" imagePath = "https://i.ibb.co/QFSGcYL/Cover-Image.png" />
+<BigButton class = "largeButton3" overlayText = "About" imagePath = "" />
 <MainTitle mainTitle = "Spook" subTitle = "Video game development and pixel-art" />
 </template>
 
@@ -15,7 +15,6 @@ import BigButton from './components/BigButton.vue'
   position: fixed;
   bottom: 0px;
   left: 0.15%;
-  filter: hue-rotate(90deg);
 }
 .largeButton2{
   position: fixed;
