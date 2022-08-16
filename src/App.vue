@@ -6,9 +6,9 @@ import BigButton from './components/BigButton.vue'
 <template>
 <BigButton class = "largeButton1" overlayText = "Pixel-Art" imagePath = "https://i.ibb.co/jznt4YG/Sprite-0002.png" />
 <BigButton class = "largeButton2" overlayText = "Projects" imagePath = "https://i.ibb.co/QFSGcYL/Cover-Image.png" />
-<BigButton class = "largeButton3" overlayText = "About" imagePath = "" />
+<BigButton class = "largeButton3" overlayText = "About" imagePath = "https://avatars.githubusercontent.com/u/58830140?v=4" />
 <MainTitle mainTitle = "Spook" subTitle = "Video game development and pixel-art" />
-</template>
+</template> 
 
 <style scoped>
 .largeButton1{

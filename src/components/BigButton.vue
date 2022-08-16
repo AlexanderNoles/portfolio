@@ -77,6 +77,7 @@ export default{
 }
 .fullImage:hover{
   transform: scale(0.99);
-  outline-width: 3px;
+  outline-width: 5px;
+  outline-offset: -2px;
 }
 </style>
