@@ -28,6 +28,7 @@ defineProps({
   left: 0;
   width: 100%;
   background: #242424;
+  border-bottom: 4px solid rgb(0, 0, 0);
 
   -webkit-user-select: none; /* Safari */        
   -moz-user-select: none; /* Firefox */
