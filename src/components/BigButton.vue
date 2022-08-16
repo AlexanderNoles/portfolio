@@ -1,5 +1,7 @@
 <script>
 export default{
+  emits: ['buttonClicked'],
+
   props: {
     overlayText: String,
     imagePath: String,
@@ -13,7 +15,7 @@ export default{
 
   methods: {
     onButtonClick(e) {
-      
+      this.$emit('buttonClicked', true)
     }
   }
 }
@@ -21,7 +23,7 @@ export default{
 
 <template>
   <div class = "imageContainer">
-    <button class = "actualButton"> <img class = "fullImage" :src="imagePath" alt="buttonimage"/> </button>
+    <button class = "actualButton" @click="onButtonClick"> <img class = "fullImage" :src="imagePath" alt="buttonimage"/> </button>
     <div class = "text">
       <h2> {{overlayText}} </h2>
     </div>
